@@ -1,14 +1,12 @@
 [
     {
  "firstName" : "upii",
- "middleInitial" : "i",
  "lastName" : "karumanchi",
  "dateOfBirth" : "25/09/1998",
  "sample" : "222-22-2023"
     },
     {
  "firstName": "arun",
- "middleInitial": "u",
  "lastName": "kumar",
  "dateOfBirth" : "10/12/2000",
  "sample": "111-11-2024"
