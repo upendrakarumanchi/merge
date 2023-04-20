@@ -1,34 +1,35 @@
 %dw 2.0
-var firstInput = [
+var input1 = [
   { 
     "bookId":"101",
-    "title":"world history",
-    "price":"19.99"
+    "title":"world war1",
+    "price":"1000.00"
   },
   {
     "bookId":"202",
-    "title":"the great outdoors",
-    "price":"15.99"
+    "title":"wrold ar2",
+    "price":"200.00"
   }
 ]
-var secondInput = [
+var input2 = [
   {
     "bookId":"101",
-    "author":"john doe"
+    "writer":"naveen y"
   },
   {
     "bookId":"202",
-    "author":"jane doe"
+    "writer":"upendra"
   }
 ]
 output application/json
 ---
-firstInput map (firstInputValue) ->
+//based on bookId we can merge the input data
+input1 map (input1) ->
   {
-    Id : firstInputValue.bookId as Number,
-    Title: firstInputValue.title,
-    Price: firstInputValue.price as Number,
-    (secondInput filter ($.*bookId contains firstInputValue.bookId) map (secondInputValue) -> {
-      Author : secondInputValue.author
+    Id : input1.bookId as Number,
+    Title:  input1.title,
+    Price: input1.price as Number,
+    (input2 filter ($.*bookId contains input1.bookId) map (input2) -> {
+      writer : input2.writer
     })
   }
