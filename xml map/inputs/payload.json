@@ -1,0 +1,13 @@
+<person>
+<nom>hichem</nom>
+<prenom>rtibi</prenom>
+  <formation>
+   <title>jAVA</title>
+  </formation>
+<formation>
+   <title>Spring</title>
+  </formation>
+<formation>
+   <title>Angular</title>
+  </formation>
+</person>
