@@ -18,6 +18,6 @@ output application/json
 
 destination update [ keysOf(destination)[0] as String , "data"] with source.List.Id
 
-// so here i can update the data in destination idata location so, here write the  location i want updated use the update function in that (array use to keysof with location and  format with data  )and  requried sorce data location can also add 
+//so here i can update the data in destination idata location so, here write the  location i want updated use the update function in that (array use to keysof with location and  format with data  )and  requried sorce data location can also add 
    
   
