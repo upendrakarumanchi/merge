@@ -7,6 +7,7 @@ person:{
     "prenom" : payload.person.prenom,
 
 "formation " :payload.person.*formation map ((item, index) -> 
+//here  i can add  the feild id at the formation by using map function
 {
     "id" : index + 1,
     "tilte" : item.title
