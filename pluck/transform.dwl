@@ -12,7 +12,7 @@ AcDes: value.Z1SDC.CNAM
 }))
 } 
 
-//by using pluck operations to add  "z1wc" expressions with 'Z1SDC'
+ // here i can remove the 'Z1SDC' to use pluck to write the code and  use another pluck operation  to add the Z1SDC  to use write key value 
 
 /*
 {
