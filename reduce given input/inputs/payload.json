@@ -1,0 +1,23 @@
+{
+  "resultSet1": [
+    {
+      "Id": 123,
+      "Name": "Me"
+    }
+  ],
+  "resultSet2": [
+    {
+      "Id": 124,
+      "Name": "someone",
+      "Address": "some"
+    }
+  ],
+  "resultSet3": [
+    {
+      "Id": 124,
+      "Name": "another Me",
+      "Address": "some",
+      "Phone": 1234
+    }
+  ]
+}
