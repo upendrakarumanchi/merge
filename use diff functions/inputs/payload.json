@@ -1,0 +1,20 @@
+{
+  "EmpJob":
+  [
+    {
+      "EmployeeUserID": "6661",
+      "EmpJobRelationship":
+       [
+        {
+          "HRManagerUserID": "588",
+          "PerPerson": 
+          [
+            {
+              "EmployeeDOB": "1989-06-15"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
