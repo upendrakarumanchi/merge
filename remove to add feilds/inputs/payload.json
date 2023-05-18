@@ -1,0 +1,10 @@
+{
+  "employeecode": "123",
+  "employeeName": "testemployee",
+  "employeePassword": "test@1234",
+  "requestBase": {
+    "userName": "john",
+    "password": "test@1234",
+    "name" : "name"
+  }
+}
