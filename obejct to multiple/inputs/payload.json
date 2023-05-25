@@ -1,0 +1,13 @@
+{
+  "data": {
+    "schema": "sample",
+    "payload": {
+      "RCY_CountryOld": "123",
+      "RCY_ExternalID": "456",
+      "RCY_FirstNameOld": "sample",
+      "RCY_Country": "789",
+      "RCY_FullName": "new sample",
+      "RCY_State": "MP"
+    }
+  }
+}
